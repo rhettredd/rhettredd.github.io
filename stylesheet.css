@@ -1,0 +1,104 @@
+body {
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(100,100,100,1));
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header{
+	border-radius: 25px;
+	background-color: rgba(30, 200, 30, .5);
+	padding: 20px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.topnav {
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {
+	text-align: left;
+	color: black;
+	padding: 40px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+  
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+div.picgallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 300px;
+  background-color: white;
+}
+
+div.picgallery:hover {
+  border: 2px solid #777;
+}
+
+div.picgallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.videogallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  background-color: white;
+}
+
+div.videogallery:hover {
+  border: 1px solid #777;
+}
+
+div.videogallery video {
+  width: 100%;
+  height: auto;
+}
+  
+  
