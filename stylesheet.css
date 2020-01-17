@@ -1,15 +1,24 @@
-body {
+.back {
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(100,100,100,1));
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+    background-attachment: fixed
 }
-
+body {
+	margin:0;
+}
 .header{
 	border-radius: 25px;
 	background-color: rgba(30, 200, 30, .5);
 	padding: 20px;
 	text-align: center;
 	font-size: 200%;
+	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .topnav {
@@ -60,6 +69,9 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
 }
 
 div.picgallery {
@@ -100,5 +112,31 @@ div.videogallery video {
   width: 100%;
   height: auto;
 }
-  
-  
+ 
+ 
+/*Code Ben Added*/ 
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
