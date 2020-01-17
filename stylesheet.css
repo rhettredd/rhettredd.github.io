@@ -1,11 +1,14 @@
-body {
+.back {
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(100,100,100,1));
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin:0;
 	height: 100%;
+	width: 100%;
+    background-attachment: fixed
 }
-
+body {
+	margin:0;
+}
 .header{
 	border-radius: 25px;
 	background-color: rgba(30, 200, 30, .5);
@@ -66,6 +69,9 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
 }
 
 div.picgallery {
